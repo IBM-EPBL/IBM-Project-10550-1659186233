@@ -1,0 +1,25 @@
+import random
+temperature=random.randint(1,100)
+humidity=random.randint(1,100)
+print(temperature)
+print(humidity)
+if((temperature<50) & (humidity<40)):
+  print("temperature is normal")
+  print("humdity is normal")
+  print("alarm off")
+elif((temperature<50)&(humidity >40)):
+  print("temperature is low")
+  print("humdity is high")
+  print("alarm off")
+elif((temperature>60)&(humidity <40)):
+  print("temperature is high")
+  print("humdity is high")
+  print("alarm on")
+elif((temperature>60)&(humidity >40)):
+  print("temperature is high")
+  print("humdity is low")
+  print("alarm on")
+else:
+    print("temperature is very low")
+    print("humidity is low")
+    print("alarm off")
