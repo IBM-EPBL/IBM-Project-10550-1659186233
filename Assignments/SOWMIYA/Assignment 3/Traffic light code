@@ -1,8 +1,7 @@
 import RPi.GPIO as GPIO
-	import time
-	  
-	Code:
-	  def lightTraffic(led1, led2, led3, delay ):
+import time
+Code:
+def lightTraffic(led1, led2, led3, delay ):
 	    GPIO.output(led1, 1)
 	    time.sleep(delay)
 	    GPIO.output(led1, 0)
@@ -34,4 +33,5 @@ import RPi.GPIO as GPIO
 	  print("You've exited the program")
 	finally:
 	  GPIO.cleanup()
-
+	  
+	  
