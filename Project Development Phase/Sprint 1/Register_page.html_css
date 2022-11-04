@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration_page</title>
+    <style>
+        body{
+            margin: 0%;
+            
+
+        }
+        .box{
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            padding: 34px;
+            text-align: center;
+        }
+        .texts{
+            padding: 12px;
+            border-radius: 23px;
+            position: relative;
+            left: 80px;
+        }
+        .text{
+            padding: 12px;
+            border-radius: 23px;
+            position: relative;
+            left: 55px;
+        }
+        .text1{
+            padding: 12px;
+            border-radius: 23px;
+            position: relative;
+            left: -9px;
+        }
+        .text2{
+            padding: 12px;
+            border-radius: 23px;
+            position: relative;
+            left: 10px;
+        }
+        #form{
+            background-color: antiquewhite;
+            height: 450px;
+            width: 450px;
+            margin: 34px 500px;
+            padding: 34px;
+            border-radius: 45px;
+
+        }
+        .button{
+           position: relative;
+           right: -180px;
+           
+           width: 100px;
+           height: 35px;
+           background-color: azure;
+           align-items: center;
+           font-size: 22px;
+        }
+    </style>
+</head>
+<body>
+    <form id="form">
+        <div class="input-wrapper">
+            <h1 style="text-align:center">Registration Page</h1>
+        
+        <label for="email" class="box">E-mail</label>
+        <input type="text" class="texts" placeholder="Type your E-mail" required><br><br>
+        <label for="name" class="box">Username</label>
+        <input type="text" class="text" placeholder="Type your username" required><br><br>
+        <label for="password" class="box">Password</label>
+        <input type="password" class="text" placeholder="Type your password" required><br><br>
+        <label for="confirm-password" class="box">Confirm-password</label>
+        <input type="password" class="text1" placeholder="Confirm your password" required><br><br>
+        <label for="phn-no" class="box">Mobile number</label>
+        <input type="number" class="text2" placeholder="type your phone-number" required><br><br><br>
+        <input type="button" class="button" value="submit">
+        
+
+    </div>
+    </form>
+    
+    
+</body>
+</html>
