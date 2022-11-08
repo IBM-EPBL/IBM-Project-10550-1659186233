@@ -60,6 +60,7 @@
         <input type="password" class="texts" placeholder="Type your password" required><br><br>
         <p><a href="#"> forgot your password?</a></p>
         <input type="button" value="Submit" class="button">
+         <p><a href="Register_page.html">Register</a></p>
         <br><br>
         <p>Or sign up using</p>
         <a href="#"><img src="https://logodownload.org/wp-content/uploads/2014/09/facebook-logo-0.png" class="logo0"></a>
