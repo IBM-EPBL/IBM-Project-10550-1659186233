@@ -76,7 +76,7 @@
         <input type="password" class="text1" placeholder="Confirm your password" required><br><br>
         <label for="phn-no" class="box">Mobile number</label>
         <input type="number" class="text2" placeholder="type your phone-number" required><br><br><br>
-        <input type="button" class="button" value="submit">
+        <a href="dashboard.html"><input type="button" class="button" value="submit" ></a>
         
 
     </div>
