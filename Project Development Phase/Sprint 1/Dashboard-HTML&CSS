@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <title>Dashboard</title>
+    <style>
+        body{
+            margin:0%;
+            background-color: rgb(252, 199, 180);
+            
+        }
+        #topbar{
+            background-color: white;
+            height: 70px;
+            width: 100%;
+            
+        }
+        .head{
+            font-size: 30px;
+            font-family: 'Lobster', cursive;
+            padding: 20px 40px ;
+            position: absolute;
+            color: rgb(10, 107, 110);
+            
+
+        }
+       
+        .head1{
+           font-size: 25px;
+            font-family: 'Lobster', cursive;
+            padding: 20px 10px ;
+            position: absolute;
+            color: rgb(10, 107, 110);
+            left:1050px;
+        }
+        .head1:hover{
+            color: red;
+        }
+        .head2{
+            font-size: 25px;
+            font-family: 'Lobster', cursive;
+            padding: 20px 50px ;
+            position: absolute;
+            color: rgb(10, 107, 110);
+            left:1150px;
+        }
+        .head2:hover
+        {
+            color:red;
+        }
+        .head3{
+            font-size: 25px;
+            font-family: 'Lobster', cursive;
+            padding: 20px  ;
+            position: absolute;
+            color: rgb(10, 107, 110);
+            left:1300px;
+        }
+        .head3:hover{
+            color: red;
+        }
+        .image{
+           
+            width: 200px;
+            height: 200px;
+            padding: 70px;
+        }
+       
+        .text{
+            font-size: 23px;
+            padding: 100px;
+            bottom:150px;
+            position: relative;
+            text-align: center;
+            right: 80px;
+        }
+        .meter{
+            height:40px;
+            width:150px;
+            position: relative;
+            right:250px;
+            bottom:18px;
+        }
+        .parent-item{
+            display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        }
+        #item{
+            flex-basis: 33.33%;
+        padding: 5px;
+        box-sizing: border-box;
+        }
+        
+       
+
+    </style>
+</head>
+<body>
+    <div id="topbar">
+       
+      <span class="head">CHILD SAFETY APP</span>
+      <a href="#"><span class="head1">Features</span></a>
+      <a href="#"><span class="head2">Logout</span></a>
+      <a href="#"><span class="head3">Emergency-calls</span></a>
+      
+    </div >
+    <div class="parent-item">
+  
+        <div id="item">
+        <img src="https://primaryimmune.org/sites/default/files/primaryimmune.org/wp-content/uploads/2015/10/sick-child-in-bed-with-temperature_0.jpg" alt="temp-image" class="image">
+        
+        <a href="#" target="_blank"><h4 class="text">Temperature</h4></a>
+        
+    
+    </div>
+    <div id="item">
+        <img src="https://tse3.mm.bing.net/th?id=OIP.0c5xHEMW5_RLtGNnCmFXhgHaE9&pid=Api&P=0" class="image" alt="loc-image">
+       <a href="#"> <h4 class="text">Current Location</h4></a>
+        
+    </div>
+    <div id="item">
+        <img src="https://assets.website-files.com/5cb818e9bfadbe53aa4ed7e0/5e288d127e735f7ba2972e25_Geofencing.png" class="image" alt="geofence">
+        <a href="#"><h4 class="text">Geofence</h4></a>
+    </div>
+</div>
+
+
+
+
+    
+</body>
+</html>
